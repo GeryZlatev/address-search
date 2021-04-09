@@ -1,5 +1,5 @@
 import style from './SearchBar.module.css';
-import ResultContainer from '../ImageWrapper';
+import ResultContainer from '../ResultContainer';
 import ResultItem from '../ResultItem';
 
 const SearchBar = () => {
@@ -26,9 +26,6 @@ const SearchBar = () => {
                 
             </form>
             <ResultItem
-            address="кв.Дианабад, ул.Самоков 15"
-                city="София" />
-                        <ResultItem
             address="кв.Дианабад, ул.Самоков 15"
             city="София"/>
         </div>

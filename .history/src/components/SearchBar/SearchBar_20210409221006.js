@@ -1,5 +1,5 @@
 import style from './SearchBar.module.css';
-import ResultContainer from '../ImageWrapper';
+import ResultContainer from '../ResultContainer';
 import ResultItem from '../ResultItem';
 
 const SearchBar = () => {

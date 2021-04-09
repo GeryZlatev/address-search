@@ -1,0 +1,10 @@
+.result-item-wrapper {
+    max-width: 70%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 0px 20px;
+    border: 1px solid #ACD1F6;
+}

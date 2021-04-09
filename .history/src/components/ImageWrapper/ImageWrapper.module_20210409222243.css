@@ -1,0 +1,9 @@
+.image-container {
+    max-width: 30%;
+    position: absolute;
+
+}
+
+.image-container img {
+    max-width: 100%;
+}

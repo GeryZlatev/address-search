@@ -1,5 +1,5 @@
 import style from './SearchBar.module.css';
-import ResultContainer from '../ImageWrapper';
+import ResultContainer from '../ResultContainer';
 import ResultItem from '../ResultItem';
 
 const SearchBar = () => {
@@ -9,7 +9,7 @@ const SearchBar = () => {
             <form className={style["search-form"]}>
                 <label htmlFor="search">
                     
-                    <i className="fas fa-search"></i>
+                    <i class="fas fa-search"></i>
                 </label>
                     <input
                     type="text"
@@ -25,12 +25,11 @@ const SearchBar = () => {
                 />
                 
             </form>
+            <ResultContainer>
             <ResultItem
             address="кв.Дианабад, ул.Самоков 15"
-                city="София" />
-                        <ResultItem
-            address="кв.Дианабад, ул.Самоков 15"
             city="София"/>
+            </ResultContainer>
         </div>
     )
 
