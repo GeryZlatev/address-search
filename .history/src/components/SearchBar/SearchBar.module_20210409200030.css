@@ -1,0 +1,19 @@
+.searchbar-wrapper {
+    max-width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form {
+    max-width: 100%;
+}
+
+.search-form label {
+    min-width: 50%;
+}
+
+.search-form input[type="text"] {
+    min-width: 30%;
+    min-height: 10%;
+}

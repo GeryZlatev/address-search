@@ -1,0 +1,9 @@
+.searchbar-wrapper {
+    max-width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.search-form {
+    max-width: 100%;
+}
