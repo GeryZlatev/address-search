@@ -1,0 +1,27 @@
+.suggestion-address {
+    max-width: 50%;
+    margin: 3px auto;
+    font-size:large;
+    background: #ACD1F6;
+    padding: 6px 12px;
+    z-index: 200;
+    border: 0.5px solid #ACD1F6;
+    
+    cursor: pointer;
+}
+
+.suggestion-address:hover {
+    background: #CCE0F6;
+}
+
+.icon {
+    margin-right: 10px;
+    float: left;
+}
+
+@media only screen and (max-width:620px) {
+    .suggestion-address {
+        max-width: 80%;
+    }
+}
+

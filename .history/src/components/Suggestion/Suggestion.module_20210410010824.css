@@ -1,0 +1,8 @@
+.suggestion-address {
+    max-width: 50%;
+    margin: 0 auto;
+    font-size:large;
+    background:#CCE0F6;
+    padding: 6px 12px;
+    z-index: 200;
+}

@@ -1,0 +1,6 @@
+.suggestion-address {
+    max-width: 70%;
+    font-size: xx-large;
+    background: chartreuse;
+    z-index: 200;
+}
